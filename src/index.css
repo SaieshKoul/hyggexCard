@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header div img {
+  width: 21px;
+  height: 25px;
+}
+
+.header div img:nth-of-type(1) {
+  width: 51px;
+  height: 40px;
+}
+
+.header nav a {
+  color: #3A3740;
+}
+
+.header button {
+  background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+}
+
+.home img {
+  width: 7.41px;
+  height: 12px;
+}
+
+.home img:nth-of-type(1) {
+  width: 30px;
+  height: 30px;
+  padding: 3.75px 5px 5px 5px;
+}
+
+.topic {
+  background: -webkit-linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card div {
+  background: linear-gradient(222.94deg, #051A91 -4.31%, #061C93 14.41%, #2284F1 81.88%, #1F80EB 103.81%);
+}
+
+.createcard {
+  background: -webkit-linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.faq {
+  background: -webkit-linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
